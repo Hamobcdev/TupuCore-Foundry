@@ -1,14 +1,18 @@
-# Compiler files
-cache/
-out/
+# Dependency directories
+/node_modules
+/frontend/node_modules
+/lib
+/lib/forge-std
+/cache
+/out
 
-# Ignores development broadcast logs
-!/broadcast
-/broadcast/*/31337/
-/broadcast/**/dry-run/
-
-# Docs
-docs/
-
-# Dotenv file
+# Environment variables
 .env
+.secret
+
+# Test report files
+/test/coverage.json
+/test/coverage/
+
+# Misc
+.DS_Store
